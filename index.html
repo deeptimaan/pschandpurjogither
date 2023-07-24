@@ -563,6 +563,7 @@ $(function() {
     }).done(function(resp) {
       spinner.hide();
       alert("Data Saved");
+      $('form')[0].reset();
     });
   });
 });
